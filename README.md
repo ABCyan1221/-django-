@@ -8,6 +8,7 @@
 - “用户”与“学生”
 - “超级用户”与“管理员”
 - “请求确认”与“审批”（只实现了approved，没有实现rejected）
+- “BorrowAndReturn”与“bar”
 
 # 测试步骤 #
 1. 下载django相关库；
@@ -29,4 +30,3 @@
 # 额外说明 #
 - 登录时间默认为一个小时，之后清空cookie。该参数在book_management_system\settings.py内，设置为SESSION_COOKIE_AGE=3600；
 - 用户注册时，会检查学号是否与数据库内student.sno匹配。注册用户前请注意这点。
-- bar是BorrowAndReturn的缩写。
